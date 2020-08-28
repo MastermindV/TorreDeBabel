@@ -2493,6 +2493,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1465613211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4140763663252858716, guid: b7a07a0ef5ebacf44bcc17fb27d89f67,
+    type: 3}
+  m_PrefabInstance: {fileID: 4140763663057860979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1465613212
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465613211}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 85e8474da6b7f7d459caddd1972135b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1527980826
 GameObject:
   m_ObjectHideFlags: 0
@@ -3778,6 +3803,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3831988845548445521, guid: b7a07a0ef5ebacf44bcc17fb27d89f67,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831988845548445521, guid: b7a07a0ef5ebacf44bcc17fb27d89f67,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.28
+      objectReference: {fileID: 0}
     - target: {fileID: 4140763663252858690, guid: b7a07a0ef5ebacf44bcc17fb27d89f67,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3838,6 +3873,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4140763663252858691, guid: b7a07a0ef5ebacf44bcc17fb27d89f67,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 559931050593131893, guid: 06d59280162b07747ace4892238a1093,
+        type: 3}
     - target: {fileID: 4140763663252858716, guid: b7a07a0ef5ebacf44bcc17fb27d89f67,
         type: 3}
       propertyPath: m_Name
