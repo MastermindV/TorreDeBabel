@@ -12,7 +12,7 @@ public class Moviment : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
-
+        
     }
 
     // Update is called once per frame
@@ -67,5 +67,12 @@ public class Moviment : MonoBehaviour
             ;
         }
 
+    }
+
+    void OnCollisionEnter2D (Collision2D col){
+        if (col.gameObject.tag == "Poema"){
+            int chave = PlayerPrefs.GetInt("Chave");
+            PlayerPrefs.SetInt("Chave",chave++);
+        }
     }
 }
